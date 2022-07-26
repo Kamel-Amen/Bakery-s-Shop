@@ -57,7 +57,7 @@ function Home() {
 
   useEffect(() => {
     axios
-      .get('http://myjson.dit.upm.es/api/bins/dpqh')
+      .get('https://myjson.dit.upm.es/api/bins/dpqh')
       .then((response) => {
         setData(response.data);
       })
